@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>cartenzGroup</td>
+                          <td>1</td>
+                        <td>21 Mar 2024, 13:49</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">StepDef.LandingPage.carrerAboutTheCompanyAppears()</td>
+                <td>1</td>
+                <td class="duration" data-value="31156200">031ms</td>
+                <td class="duration" data-value="31156200">031ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.companyAppearsOnGoogleMaps()</td>
+                <td>1</td>
+                <td class="duration" data-value="1236585200">1s 236ms</td>
+                <td class="duration" data-value="1236585200">1s 236ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iChooseAnAvailableRole()</td>
+                <td>1</td>
+                <td class="duration" data-value="4522793800">4s 522ms</td>
+                <td class="duration" data-value="4522793800">4s 522ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iClickButtonPlay()</td>
+                <td>1</td>
+                <td class="duration" data-value="44493300">044ms</td>
+                <td class="duration" data-value="44493300">044ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iClickIconLinkedin()</td>
+                <td>1</td>
+                <td class="duration" data-value="68652700">068ms</td>
+                <td class="duration" data-value="68652700">068ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iClickLearnMoreAboutCartenzTechnology()</td>
+                <td>1</td>
+                <td class="duration" data-value="71032500">071ms</td>
+                <td class="duration" data-value="71032500">071ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iClickNewsDetail()</td>
+                <td>1</td>
+                <td class="duration" data-value="399375100">399ms</td>
+                <td class="duration" data-value="399375100">399ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iClickOnNavbar(java.lang.String)</td>
+                <td>5</td>
+                <td class="duration" data-value="5311294100">5s 311ms</td>
+                <td class="duration" data-value="1062258820">1s 062ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iCopyCompanyAddress()</td>
+                <td>1</td>
+                <td class="duration" data-value="29922100">029ms</td>
+                <td class="duration" data-value="29922100">029ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iOpenBrowser()</td>
+                <td>11</td>
+                <td class="duration" data-value="8967242300">8s 967ms</td>
+                <td class="duration" data-value="815203845">815ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iOpenGoogleMaps()</td>
+                <td>1</td>
+                <td class="duration" data-value="1993486100">1s 993ms</td>
+                <td class="duration" data-value="1993486100">1s 993ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iOpenWebsiteCartenzGroup()</td>
+                <td>11</td>
+                <td class="duration" data-value="98583705300">1m 38s 583ms</td>
+                <td class="duration" data-value="8962155027">8s 962ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iPasteCompanyAddres()</td>
+                <td>1</td>
+                <td class="duration" data-value="2201484200">2s 201ms</td>
+                <td class="duration" data-value="2201484200">2s 201ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iScrollIntoFooterSection()</td>
+                <td>2</td>
+                <td class="duration" data-value="2085674200">2s 085ms</td>
+                <td class="duration" data-value="1042837100">1s 042ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iScrollIntoOurleaderSection()</td>
+                <td>1</td>
+                <td class="duration" data-value="1040122200">1s 040ms</td>
+                <td class="duration" data-value="1040122200">1s 040ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iScrollIntoValueSection()</td>
+                <td>1</td>
+                <td class="duration" data-value="1045931400">1s 045ms</td>
+                <td class="duration" data-value="1045931400">1s 045ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iWasDirectedToTheLinkedinCartenzCoId()</td>
+                <td>1</td>
+                <td class="duration" data-value="3226712600">3s 226ms</td>
+                <td class="duration" data-value="3226712600">3s 226ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.iWasDirectedToTheWebsiteCartenzCoId()</td>
+                <td>1</td>
+                <td class="duration" data-value="3416675700">3s 416ms</td>
+                <td class="duration" data-value="3416675700">3s 416ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.informationAboutLeaderOfTheCompanyAppears()</td>
+                <td>1</td>
+                <td class="duration" data-value="3540395000">3s 540ms</td>
+                <td class="duration" data-value="3540395000">3s 540ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.informationAboutTheCompanyAppears()</td>
+                <td>1</td>
+                <td class="duration" data-value="3193153000">3s 193ms</td>
+                <td class="duration" data-value="3193153000">3s 193ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.informationPeopleAboutTheCompanyAppears()</td>
+                <td>1</td>
+                <td class="duration" data-value="4467789300">4s 467ms</td>
+                <td class="duration" data-value="4467789300">4s 467ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.informationValueTheCompanyAppears()</td>
+                <td>1</td>
+                <td class="duration" data-value="1254256500">1s 254ms</td>
+                <td class="duration" data-value="1254256500">1s 254ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.newsAboutTheCompanyAppears()</td>
+                <td>1</td>
+                <td class="duration" data-value="33718300">033ms</td>
+                <td class="duration" data-value="33718300">033ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.theNewsDetailOpen()</td>
+                <td>1</td>
+                <td class="duration" data-value="8221752300">8s 221ms</td>
+                <td class="duration" data-value="8221752300">8s 221ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDef.LandingPage.videoProfileCompanyPlaying()</td>
+                <td>1</td>
+                <td class="duration" data-value="5165702300">5s 165ms</td>
+                <td class="duration" data-value="5165702300">5s 165ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>25</td>
+              <td>50</td>
+              <td class="duration">2m 40s 153ms</td>
+              <td class="duration">3s 203ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

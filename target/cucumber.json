@@ -1,0 +1,764 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-21T06:46:21.477Z",
+        "line": 3,
+        "name": "I want to open website cartenz group",
+        "description": "",
+        "id": "landing-page;i-want-to-open-website-cartenz-group",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002088600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8951300000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:46:31.474Z",
+        "line": 8,
+        "name": "I want play video profile company",
+        "description": "",
+        "id": "landing-page;i-want-play-video-profile-company",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 892470900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8941678900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44493300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click button play",
+            "match": {
+              "location": "StepDef.LandingPage.iClickButtonPlay()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5165702300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Video profile company playing",
+            "match": {
+              "location": "StepDef.LandingPage.videoProfileCompanyPlaying()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:46:46.524Z",
+        "line": 15,
+        "name": "I want to know about company",
+        "description": "",
+        "id": "landing-page;i-want-to-know-about-company",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 889074100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8957819500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060713900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click \"ABOUT\" on navbar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABOUT\"",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDef.LandingPage.iClickOnNavbar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3193153000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Information about the company appears",
+            "match": {
+              "location": "StepDef.LandingPage.informationAboutTheCompanyAppears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:47:00.627Z",
+        "line": 22,
+        "name": "I want to know news company",
+        "description": "",
+        "id": "landing-page;i-want-to-know-news-company",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 758000700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8913596600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060586200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click \"NEWS\" on navbar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NEWS\"",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDef.LandingPage.iClickOnNavbar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33718300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "News about the company appears",
+            "match": {
+              "location": "StepDef.LandingPage.newsAboutTheCompanyAppears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399375100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click news detail",
+            "match": {
+              "location": "StepDef.LandingPage.iClickNewsDetail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8221752300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The news detail open",
+            "match": {
+              "location": "StepDef.LandingPage.theNewsDetailOpen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:47:20.018Z",
+        "line": 31,
+        "name": "I want to know value company",
+        "description": "",
+        "id": "landing-page;i-want-to-know-value-company",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 774235800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8938346400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1045931400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I scroll into value section",
+            "match": {
+              "location": "StepDef.LandingPage.iScrollIntoValueSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1254256500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Information Value the company appears",
+            "match": {
+              "location": "StepDef.LandingPage.informationValueTheCompanyAppears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:47:32.032Z",
+        "line": 38,
+        "name": "I want to know company leader",
+        "description": "",
+        "id": "landing-page;i-want-to-know-company-leader",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 742827000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8926650600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1040122200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I scroll into ourleader section",
+            "match": {
+              "location": "StepDef.LandingPage.iScrollIntoOurleaderSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3540395000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Information about leader of the company appears",
+            "match": {
+              "location": "StepDef.LandingPage.informationAboutLeaderOfTheCompanyAppears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:47:46.286Z",
+        "line": 45,
+        "name": "I want to know company technology",
+        "description": "",
+        "id": "landing-page;i-want-to-know-company-technology",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 711375500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8938965600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060951400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click \"OUR COMPANIES\" on navbar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OUR COMPANIES\"",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDef.LandingPage.iClickOnNavbar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71032500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click learn more about cartenz technology",
+            "match": {
+              "location": "StepDef.LandingPage.iClickLearnMoreAboutCartenzTechnology()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3416675700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I was directed to the website cartenz.co.id",
+            "match": {
+              "location": "StepDef.LandingPage.iWasDirectedToTheWebsiteCartenzCoId()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:48:00.487Z",
+        "line": 53,
+        "name": "I want to know company integrity",
+        "description": "",
+        "id": "landing-page;i-want-to-know-company-integrity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 909709400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8923197900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060600000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click \"OUR PEOPLE\" on navbar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OUR PEOPLE\"",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDef.LandingPage.iClickOnNavbar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4467789300,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Information people about the company appears",
+            "match": {
+              "location": "StepDef.LandingPage.informationPeopleAboutTheCompanyAppears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:48:15.850Z",
+        "line": 60,
+        "name": "I want to know information career",
+        "description": "",
+        "id": "landing-page;i-want-to-know-information-career",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 756912900,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9218248000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1068442600,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click \"CAREER\" on navbar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CAREER\"",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDef.LandingPage.iClickOnNavbar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31156200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Carrer about the company appears",
+            "match": {
+              "location": "StepDef.LandingPage.carrerAboutTheCompanyAppears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4522793800,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I choose an available role",
+            "match": {
+              "location": "StepDef.LandingPage.iChooseAnAvailableRole()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:48:31.452Z",
+        "line": 68,
+        "name": "I want to see the office location from google maps",
+        "description": "",
+        "id": "landing-page;i-want-to-see-the-office-location-from-google-maps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 775276900,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8960952900,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1040270000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I scroll into footer section",
+            "match": {
+              "location": "StepDef.LandingPage.iScrollIntoFooterSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29922100,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I copy company address",
+            "match": {
+              "location": "StepDef.LandingPage.iCopyCompanyAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993486100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I open google maps",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenGoogleMaps()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2201484200,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I paste company addres",
+            "match": {
+              "location": "StepDef.LandingPage.iPasteCompanyAddres()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1236585200,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Company appears on google maps",
+            "match": {
+              "location": "StepDef.LandingPage.companyAppearsOnGoogleMaps()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-21T06:48:47.693Z",
+        "line": 78,
+        "name": "I want to see the company linkedin",
+        "description": "",
+        "id": "landing-page;i-want-to-see-the-company-linkedin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 755270500,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8912948900,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I open website cartenz group",
+            "match": {
+              "location": "StepDef.LandingPage.iOpenWebsiteCartenzGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1045404200,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "I scroll into footer section",
+            "match": {
+              "location": "StepDef.LandingPage.iScrollIntoFooterSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68652700,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I click icon linkedin",
+            "match": {
+              "location": "StepDef.LandingPage.iClickIconLinkedin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3226712600,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I was directed to the linkedin cartenz.co.id",
+            "match": {
+              "location": "StepDef.LandingPage.iWasDirectedToTheLinkedinCartenzCoId()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Landing Page",
+    "description": "",
+    "id": "landing-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LandingPage.feature",
+    "tags": []
+  }
+]
